@@ -3,7 +3,7 @@ import time
 import os
 import logging
 
-MAX_RETRIES = 3
+MAX_RETRIES = 2
 DOWNLOAD_PATH = "employee_data.bin"
 
 def download_file(url):

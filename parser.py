@@ -1,6 +1,5 @@
 import pandas as pd
 import logging
-
 def parse_file(file_path):
     try:
         df = pd.read_csv(file_path)

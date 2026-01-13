@@ -27,4 +27,4 @@ def run_scraper():
 if __name__ == "__main__":
     data, missing = run_scraper()
     print("Scraped columns:", list(data.columns))
-    print("Missing required fields:", missing)
+    print("Missing required field:", missing)
