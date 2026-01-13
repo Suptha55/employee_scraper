@@ -1,5 +1,4 @@
 import logging
-
 logging.basicConfig(
     filename="scraper.log",
     level=logging.INFO,

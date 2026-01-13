@@ -21,7 +21,6 @@ COLUMN_MAPPING = {
 }
 
 def validate_and_map(df):
-    # Rename known columns
     df = df.rename(columns=COLUMN_MAPPING)
 
     missing_fields = [f for f in REQUIRED_FIELDS if f not in df.columns]
