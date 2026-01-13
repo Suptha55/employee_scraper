@@ -98,3 +98,20 @@ def test_validate_with_hire_date_missing():
 
     # Hire Date should be reported as missing
     assert "Hire Date" in missing
+
+# MOCKTEST 3 
+def test_validate_with_email_missing():
+    data = {
+        "Employee ID": [1],
+        "First Name": ["Alice"],
+        "Last Name": ["Brown"],
+        "Job Title": ["Manager"],
+        "Phone Number": ["9999999999"],
+        "Hire Date": ["2022-06-01"]
+        # Email is missing
+    }
+
+    df = pd.DataFrame(data)
+    df, missing = validate_and_map(df)
+
+    assert "Email" in missing
