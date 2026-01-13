@@ -62,7 +62,7 @@ def test_missing_required_fields():
     # Source data does not contain Hire Date
     assert "Hire Date" in missing
 
-#MOCK TESTCASE 1 : Hire date is present
+# MOCK TESTCASE 1 : Hire date is present
 def test_validate_with_hire_date_present():
     data = {
         "Employee ID": [1],
