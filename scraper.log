@@ -1,0 +1,4 @@
+2026-01-13 11:28:04,600 - INFO - File downloaded successfully
+2026-01-13 11:28:04,662 - INFO - File parsed as CSV
+2026-01-13 11:28:04,675 - ERROR - Missing required fields as per user story: ['Hire Date']
+2026-01-13 11:28:04,676 - INFO - Scraping completed successfully
